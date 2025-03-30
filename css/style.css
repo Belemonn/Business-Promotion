@@ -35,7 +35,7 @@ a {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -370,4 +370,291 @@ a {
 }
 
 .collaboration-text {
+  font-size: 16px;
+  line-height: 1.625;
 }
+
+/* ====================== Quick & Easy ======================= */
+.quick-easy {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.quick-easy-container {
+  max-width: 936px;
+  padding: 0 20px;
+}
+
+.quick-easy-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.quck-easy-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  max-width: 542px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.expert-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.expert-item {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.expert-text {
+  align-items: center;
+}
+
+.expert-btn {
+  margin: 0 auto;
+  min-width: 216px;
+  height: 53px;
+  background-color: #02897a;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  display: block;
+}
+
+/* ====================== Contents Strategies ======================= */
+.strategies {
+  padding-top: 50px;
+  padding-bottom: 85px;
+}
+
+.strategies-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.strategies-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-right: auto;
+  max-width: 434px;
+  margin-bottom: 40px;
+}
+
+.strategies-list {
+  display: flex;
+  gap: 30px;
+}
+
+.stategies-item {
+  width: calc((100% - 60px) / 3);
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+
+.stategies-link {
+}
+
+.strategies-link-text {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.strategies-text-wrap {
+  padding: 24px 27px 40px 27px;
+}
+
+.stategies-link-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.7;
+  max-width: 296px;
+}
+
+.stategies-link-title:hover {
+  color: #02897a;
+}
+
+/* ====================== Price Table ======================= */
+.price-table {
+  padding-top: 85px;
+  padding-bottom: 50px;
+}
+
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.price-text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.price-card-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 72px;
+}
+.price-card-item {
+  align-items: center;
+  justify-content: center;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  width: 322px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.price-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.price-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  margin-bottom: 73px;
+  text-align: center;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.includes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.inkludes-item {
+}
+
+.includes-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+}
+
+.price-btn {
+  display: block;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: none;
+  background-color: #02897a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* ====================== Reviews ======================= */
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.reviews-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reviews-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  width: 537px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.reviews-list {
+  display: flex;
+  gap: 64px;
+  row-gap: 16px;
+}
+
+.reviews-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 327px;
+  padding: 30px 35px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.desgner-container {
+  width: 119px;
+}
+
+.designer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+  width: 275px;
+}
+
+.designer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+.accent {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+/* ====================== Get This ======================= */
