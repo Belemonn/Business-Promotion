@@ -381,7 +381,7 @@ a {
 }
 
 .quick-easy-container {
-  max-width: 936px;
+  max-width: 956px;
   padding: 0 20px;
 }
 
@@ -658,3 +658,206 @@ a {
 }
 
 /* ====================== Get This ======================= */
+.get {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.get-container {
+  max-width: 1008px;
+  padding: 0 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: #02897a;
+  border-radius: 32px;
+}
+
+.get-wrrap-container {
+}
+
+.get-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 49px;
+  margin-bottom: 49px;
+  padding-left: 49px;
+  max-width: 510px;
+}
+
+.get-btn {
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color: #02897a;
+  border: none;
+  margin-left: 51px;
+}
+
+.get-image-container {
+}
+
+/* ====================== Footer ======================= */
+.page-footer {
+  padding-top: 50px;
+}
+
+.footer-text-wrapp {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 146px;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+
+.footer-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 129px;
+}
+
+.footer-item {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-item {
+}
+
+.footer-nav-link-strong {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.footer-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.1875;
+  color: #22343d;
+}
+
+.footer-nav-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 280px;
+}
+
+.privace-polis {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  margin-top: 37px;
+}
+
+.footer-nav-buton {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  width: 131px;
+  height: 39px;
+  background-color: #02897a;
+  display: block;
+  border: none;
+  margin-top: 103px;
+}
+
+/* ============================================ Costumers Page ============================================================ */
+.clients {
+  padding-top: 100px;
+  padding-bottom: 171px;
+}
+
+.clients-container {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 64px;
+}
+
+.clients-item {
+  /* width: calc((100% - 192px) / 4);  */
+}
+
+.clients-link {
+}
+
+/* ============================================  Choose Product ============================================================ */
+.choose {
+  background-color: #f5f5f5;
+  padding-top: 24px;
+  padding-bottom: 68px;
+}
+
+.choose-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.choose-list {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.choose-item {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 0 37px;
+  width: 350px;
+}
+
+.choose-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+  width: 294px;
+  padding-top: 114px;
+}
+
+.size {
+  /* width: 294px; */
+}
+
+.choose-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6875;
+  letter-spacing: 0.01em;
+  text-align: center;
+  /* width: 275px; */
+  padding-bottom: 34px;
+}
